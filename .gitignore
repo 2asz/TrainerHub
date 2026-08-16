@@ -1,0 +1,30 @@
+# Python 虚拟环境
+.venv/
+venv/
+
+# 构建产物
+build/
+dist/
+*.spec.bak
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 运行时数据（日志、配置、图片缓存等）
+data/
+
+# 修改器下载目录（含第三方二进制，不入库）
+trainers/
+
+# 工具缓存
+.mimosa/
+.zcode/
+modlens-repo/
+
+# IDE / 系统文件
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
