@@ -1,0 +1,30 @@
+# PyInstaller 版本信息资源：让 TrainerHub.exe 在文件属性里显示公司/版本/描述。
+# 无元数据的裸 exe 最容易被杀软启发式判定为可疑（2026-09-02 两次被打包产物
+# 静默删除的加固项之一）。改版本号时同步改这里（与 app/config.py 的 APP_VERSION）。
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 3, 0, 0),
+    prodvers=(1, 3, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('080404b0', [
+        StringStruct('CompanyName', 'TrainerHub'),
+        StringStruct('FileDescription', 'Trainer Hub 游戏修改器整合管理'),
+        StringStruct('FileVersion', '1.3.0.0'),
+        StringStruct('InternalName', 'TrainerHub'),
+        StringStruct('LegalCopyright', 'Copyright (c) 2026 2asz'),
+        StringStruct('OriginalFilename', 'TrainerHub.exe'),
+        StringStruct('ProductName', 'Trainer Hub'),
+        StringStruct('ProductVersion', '1.3.0.0')
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)
